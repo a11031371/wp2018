@@ -1,0 +1,70 @@
+body
+{
+  background-color: #d9d9d9;
+}
+
+#back
+{
+  position: absolute;
+  top: 10%;
+  left:35%;
+  height: 80%;
+  width: 25%;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+#center
+{
+  color: #cccccc;
+}
+.navbar {
+  position: relative;
+  overflow: hidden;
+  margin: 14pt;
+}
+#left
+{
+  position: absolute;
+  top: 15%;
+  height: 50%;
+}
+#center
+{
+  margin: auto;
+  width: 75%;
+  height:5%;
+  padding: 5px;
+                  
+}
+.navbar p
+{
+  margin: auto;
+  text-align: center;
+}
+#right
+{
+  position: absolute;
+  top: 15%;
+  right: 0%;
+  height: 50%;
+}
+#t
+{
+  text-align: center;
+}
+#main_img
+{
+  background-image: url(https://images.pexels.com/photos/709803/pexels-photo-709803.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  height: 60%;
+  z-index:1;
+}
+#main_img_two
+{
+  background-image: url(https://image.flaticon.com/icons/svg/126/126488.svg);
+  background-size: cover;
+  position: absolute;
+  top: 90%;
+  left: 50;
+  z-index: 2;
+}
